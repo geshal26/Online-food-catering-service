@@ -1,0 +1,230 @@
+
+.divison-head
+{
+    width:50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    text-align: center;
+  
+}
+.top-container
+{
+    background-image: url(top-containerbg.png);
+    padding-bottom: 130px;
+    padding-top: 20px;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+}
+.mid-container
+{
+
+    width: 100%;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    background-color: rgb(249, 250, 247);
+    background-image: url(midback-transformed.png);
+    background-size:cover;
+    background-repeat: repeat-y;
+    font-family: 'Montserrat', sans-serif;
+    
+
+}
+.phone-view
+{
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(255, 251, 247);
+    padding-top: 70px;
+    padding-bottom: 70px;
+    
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 300px 500px;
+    gap: 30px;
+    grid-auto-rows: 400px;
+    align-items: center;
+    width: 100%;
+    
+
+
+}
+.card-text
+{
+   font: bold;
+}
+
+
+.bottom-container
+{
+    background-color: rgb(243, 245, 235);
+    padding-top: 50px;
+    padding-bottom: 75px;
+    font-family: 'Montserrat', sans-serif;
+}
+.food-cards
+{
+     
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(2,18rem);
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.card
+{
+    
+    transition: transform 500ms ease;
+    cursor: pointer;
+    
+    
+    
+
+}
+.card:hover
+{
+    transform: scale(1.05);
+    box-shadow: 0px 15px 26px rgba(0, 0, 0, 0.50);
+}
+.social-links
+{
+    width:50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    
+}
+
+.fa-brands
+{
+    transition: transform 500ms ease;
+
+}
+.fa-bars
+{
+    color: rgb(255, 255, 255);
+   
+}
+.fa-brands:hover
+{
+    transform: scale(1.1);
+}
+.address,.feedback
+{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    text-align: center;
+    
+
+}
+.carousel-item
+{
+    text-align: center;
+    color: azure;
+    padding: 20px;
+    line-height: 200px;
+    
+}
+.navbar
+{
+    margin-bottom: 30px;
+    
+}
+
+
+.carouselhead
+{
+    font-size: 60px;
+    font-weight: 300;
+}
+
+.firsthead
+{
+  font-weight: bolder;
+}
+
+
+.search_bar
+{
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 30px;
+}
+form
+{
+      background: #fff;
+      width:600px;
+      height:55px;
+      display:flex;
+      border-radius: 15px;
+
+
+}
+form input{
+    flex:1;
+    border:none;
+    outline:none;
+    
+
+}
+form button
+{
+    background: tomato;
+    padding:10px 50px;
+    border:none;
+    outline:none;
+    color:#fff;
+    letter-spacing:1px ;
+    cursor: pointer;
+   border-top-right-radius: 15px;
+   border-bottom-right-radius: 15px;
+
+
+
+}
+.fa-magnifying-glass-location
+{
+    
+    align-self: center;
+    padding: 10px 20px;
+    
+
+    
+
+}
+@media(max-width:700px)
+{
+    .food-cards
+    {
+        grid-template-columns: 18rem;
+    }
+    .phone-view
+    {
+        grid-template-columns: 1fr;
+        justify-content: center;
+    }
+}
+
+a:link { text-decoration: none; }
+
+
+a:visited { text-decoration: none; }
+
+
+a:hover { text-decoration: none; }
+
+
+a:active { text-decoration: none; }
+
+.card-body
+{
+    text-align: center;
+}

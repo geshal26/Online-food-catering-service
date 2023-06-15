@@ -1,0 +1,17 @@
+update food
+
+anker tag in manage food redirects to update food
+
+ <a href="<?php echo SITEURL;?>admin/update-food.php?id=<?php echo $id;?>" class="btn-secondary">Update Food</a> 
+
+sessions in manage category related to update category  
+
+if(isset($_SESSION['load']))
+                    {
+                        echo $_SESSION['load'];
+                        unset($_SESSION['load']);
+                    }
+                    if (isset($_SESSION['food'])) {
+                        echo $_SESSION['food'];
+                        unset($_SESSION['food']);
+                    }

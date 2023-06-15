@@ -1,0 +1,34 @@
+ update category 
+
+anker tag
+in manage category redirects to uplaod cateogory
+
+
+
+<a href="<?php echo SITEURL;?>admin/update-category.php ?id=<?php echo $id;?> " class="btn-secondary">Update Category</a> 
+
+
+sessions in manage category related to update category
+
+
+
+ if(isset($_SESSION['no-category-found']))
+                     {
+                        echo $_SESSION['no-category-found'];
+                        unset($_SESSION['no-category-found']);
+                     }
+                     if(isset($_SESSION['update']))
+                     {
+                        echo $_SESSION['update'];
+                        unset($_SESSION['update']);
+                     }
+                     if(isset($_SESSION['upload']))
+                     {
+                        echo $_SESSION['upload'];
+                        unset($_SESSION['upload']);
+                     }
+                     if(isset($_SESSION['failed-remove']))
+                     {
+                        echo $_SESSION['failed-remove'];
+                        unset($_SESSION['failed-remove']);
+                     }
